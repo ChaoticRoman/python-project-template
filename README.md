@@ -13,6 +13,17 @@ A Python project template repository using:
 
 ## Getting started
 
+### GitHub CI
+
+TODO How to duplicate repo
+
+In Settings / Branches add Branch Protection for main.
+
+In Settings / Secrets and Variables / Actions / New Secret create new item called
+`OPENAI_API_KEY` and insert your OpenAI token for AI generated code reviews.
+
+### Locally
+
 Have Python, pip and poetry:
 
 ```
